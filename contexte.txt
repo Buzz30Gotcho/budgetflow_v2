@@ -1,0 +1,13 @@
+BudgetFlow est une application web de gestion de budget personnel. Elle permet à chaque utilisateur de créer un compte et de se connecter de façon sécurisée, puis de suivre ses finances au quotidien : enregistrer ses revenus et ses dépenses, les organiser par catégories (logement, nourriture, transport, loisirs…) et définir des budgets à ne pas dépasser. Un tableau de bord affiche des résumés et des graphiques clairs pour visualiser où va l'argent et aider l'utilisateur à mieux gérer ses dépenses. Côté technique, l'application repose sur une API REST développée avec Spring Boot et une base de données PostgreSQL pour le back-end, une interface Angular stylée avec Tailwind pour le front-end, le tout conteneurisé avec Docker.
+
+
+Oui, je l'avais bien gardé ! 👍 Voici ce que j'ai en mémoire sur BudgetFlow :
+
+- Type : application web
+- Back-end : Spring Boot (JWT, REST, JPA) + PostgreSQL
+- Front-end : Angular + Tailwind
+- Déploiement : Docker Compose
+- Fonctionnalités prévues (plan en ~8 sessions) : utilisateurs + login → JWT → catégories → transactions → budgets → tableau de bord
+
+
+
